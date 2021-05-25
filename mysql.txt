@@ -1,0 +1,9 @@
+Username: nYsF4TXtEd
+
+Database name: nYsF4TXtEd
+
+Password: Bd3kmx5GKS
+
+Server: remotemysql.com
+
+Port: 3306

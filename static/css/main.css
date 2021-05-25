@@ -1,0 +1,9 @@
+.detail-card{
+    text-align: center;
+    margin-top:0.5em !important;
+    border-bottom: 1px black solid;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+    {% block body %}
+    <form method="POST" class="register-form">
+        <div class="container">
+            <div class="mb-3">
+                <label for="email-address" class="form-label">Email address</label>
+                <input type="email" name="email" class="form-control" id="email-address" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" name="username" class="form-control" id="username" placeholder="Unique user name" />
+            </div>
+            <div class="mb-3">
+                    <label for="phonenumber" class="form-label">Phone Number</label>
+                     <input type="int" name="phonenumber"  class="form-control" id="username" placeholder="0123456789" />
+                  </div>
+            <div class="mb-3">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+                  </div>
+                <div class="col">
+                    <button type="submit" class="btn btn-primary mb-3">Create Account</button>
+                </div>
+
+            <p style="margin-top: 30px; text-align: center;">Admin Registration <a href="{{ url_for('admin_register') }}">Click Here</a></p>
+
+            <p style="margin-top: 30px; text-align: center;">Already have an Account ? <a href="{{ url_for('login') }}">Login</a></p>
+        </div>
+    </form>
+    {% endblock %}
